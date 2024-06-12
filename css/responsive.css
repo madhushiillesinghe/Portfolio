@@ -1,0 +1,1082 @@
+@media screen and (min-width:0px) and (max-width:350px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0%;
+        background-color: var(--bg-color);
+        border-top: 1rem solid white;
+        box-shadow: 0.5 1rem rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    /*--------------------------------------Home-----------------------------------------------*/
+
+    #home {
+        padding-top: 35%;
+    }
+
+    .hellopadding {
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .full-stack {
+        line-height: 2;
+        font-size: 14px;
+    }
+
+    .container h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .descriptionbox {
+        display: block;
+        text-align: center;
+    }
+
+    .description {
+        padding-left: 3%;
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .social-media {
+        padding-left: 30%;
+    }
+
+    .social-media a i {
+        font-size: 25px;
+    }
+
+    .social-media a i:hover {
+        font-size: 35vh;
+    }
+
+    #mobile-profile {
+        display: block;
+        width: 90%;
+    }
+
+    #profile-img {
+        margin-top: 20%;
+        width: 38vh;
+        display: none;
+    }
+
+    .detailbox {
+        width: 70%;
+        height: 7vh;
+        margin-left: 15%;
+        margin-top: -3%;
+        font-size: 10px;
+    }
+
+    .iconbox {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .detailboximage {
+        width: 1rem;
+        height: 1rem;
+        padding-top: 15%;
+    }
+
+    .detailbox ul {
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+
+    /*--------------------------------------About-----------------------------------------------*/
+
+    #about {
+        text-align: center;
+    }
+
+    #about-container {
+        margin-top: 10%;
+        display: block;
+    }
+
+    #mobile-about-img {
+        width: 90%;
+        display: block;
+        padding-left: 15%;
+    }
+
+    #about-img {
+        display: none;
+    }
+
+    .headline {
+        font-size: 30px;
+        line-height: 3rem;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content h3 {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        margin: 0rem 0 2rem 0rem;
+    }
+
+    #develop {
+        font-size: 15px;
+    }
+
+    .about-text p {
+        font-size: 1.5rem;
+    }
+
+    .about-content p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+
+    #cv-btn {
+        padding: 1rem 2.8rem;
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    /*--------------------------------------Projects--------------------------------------------*/
+
+    .portfolio-container {
+        display: block;
+    }
+
+    .portfolio-box {
+        width: auto;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 30px;
+    }
+
+    .portfolio-layer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:351px) and (max-width:575px) {
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0%;
+        background-color: var(--bg-color);
+        border-top: 1rem solid white;
+        box-shadow: 0.5 1rem rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    /*--------------------------------------Home-----------------------------------------------*/
+
+    #home {
+        padding-top: 22%;
+    }
+
+    .hellopadding {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .full-stack {
+        line-height: 2;
+        font-size: 20px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .descriptionbox {
+        display: block;
+        text-align: center;
+    }
+
+    .description {
+        padding-left: 3%;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .social-media {
+        padding-left: 35%;
+    }
+
+    .social-media a i {
+        font-size: 30px;
+    }
+
+    .social-media a i:hover {
+        font-size: 40vh;
+    }
+
+    #mobile-profile {
+        display: block;
+        width: 90%;
+    }
+
+    #profile-img {
+        margin-top: 20%;
+        width: 38vh;
+        display: none;
+    }
+
+    .detailbox {
+        width: 50%;
+        height: 8vh;
+        margin-left: 22%;
+        margin-top: -3%;
+        font-size: 10px;
+    }
+
+    .iconbox {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .detailboximage {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding-top: 15%;
+    }
+
+    .detailbox ul {
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+
+    /*--------------------------------------About-----------------------------------------------*/
+
+    #about {
+        text-align: center;
+    }
+
+    #about-container {
+        margin-top: 5%;
+        display: block;
+    }
+
+    #mobile-about-img {
+        width: 80%;
+        display: block;
+        padding-left: 20%;
+    }
+
+    #about-img {
+        display: none;
+    }
+
+    .headline {
+        font-size: 40px;
+        line-height: 3rem;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content h3 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .about-content p {
+        font-size: 1.5rem;
+        margin: 0rem 0 2rem 0rem;
+    }
+
+    #develop {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 2.5rem;
+    }
+
+    .about-content p:nth-of-type(2) {
+        font-size: 1.5rem;
+    }
+
+    #cv-btn {
+        padding: 1rem 2.8rem;
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    /*--------------------------------------Projects--------------------------------------------*/
+
+    .portfolio-container {
+        display: block;
+    }
+
+    .portfolio-box {
+        width: auto;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 35px;
+    }
+
+    .portfolio-layer p {
+        font-size: 18px;
+    }
+
+    .contact-info .info-item .detail p {
+        font-size: 1.4rem;
+    }
+    .gallery .img {
+        width: 80%;
+        height: 10%;
+        padding-left: 18%;
+      }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0%;
+        background-color: var(--bg-color);
+        border-top: 1rem solid white;
+        box-shadow: 0.5 1rem rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    /*--------------------------------------Home-----------------------------------------------*/
+
+    #home {
+        padding-top: 15%;
+    }
+
+    .hellopadding {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .full-stack {
+        line-height: 2;
+        font-size: 20px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .descriptionbox {
+        display: flex;
+    }
+
+    .description {
+        padding-left: 3%;
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .social-media {
+        padding-left: 3%;
+    }
+
+    .social-media a i {
+        font-size: 30px;
+    }
+
+    .social-media a i:hover {
+        font-size: 40vh;
+    }
+
+    #mobile-profile {
+        display: none;
+    }
+
+    #profile-img {
+        margin-top: 20%;
+        width: 38vh;
+    }
+
+    .detailbox {
+        width: 40%;
+        height: 5vh;
+        margin-left: 20%;
+        margin-top: -3%;
+        font-size: 10px;
+    }
+
+    .iconbox {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .detailboximage {
+        width: 2rem;
+        height: 2rem;
+        padding-top: 15%;
+    }
+
+    .detailbox ul {
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+
+    .detailbox ul li {
+        margin-right: 1%;
+    }
+
+    /*--------------------------------------About-----------------------------------------------*/
+
+    #about-container {
+        margin-top: 5%;
+        display: flex;
+    }
+
+    .about-img-container {
+        width: 50%;
+    }
+
+    #mobile-about-img {
+        display: none;
+    }
+
+    #about-img {
+        width: 70%;
+        margin-top: 10%;
+    }
+
+    .headline {
+        font-size: 35px;
+        line-height: 3rem;
+    }
+
+    .about-content {
+        width: 50%;
+    }
+
+    .about-content h3 {
+        font-size: 1.3rem;
+        line-height: 3rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        margin: 0rem 0 2rem 0rem;
+    }
+
+    #develop {
+        font-size: 14px;
+    }
+
+    .about-text p {
+        font-size: 1.5rem;
+    }
+
+    .about-content p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+
+    #cv-btn {
+        padding: 10px;
+        font-size: 10px;
+        margin-left: 4%;
+        width: 80%;
+        height: 2.8rem;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    /*--------------------------------------Projects--------------------------------------------*/
+
+    .portfolio-container {
+        display: block;
+    }
+
+    .portfolio-box {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 40px;
+    }
+
+    .portfolio-layer p {
+        font-size: 20px;
+    }
+
+    .contact-info .info-item .detail p {
+        font-size: 1.6rem;
+    }
+    .gallery .img {
+        width: 80%;
+        height: 10%;
+        padding-left: 18%;
+      }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*--------------------------------------Home-----------------------------------------------*/
+
+    #home {
+        padding-top: 10%;
+    }
+
+    .hellopadding {
+        font-size: 23px;
+        line-height: 2;
+    }
+
+    .full-stack {
+        line-height: 2;
+        font-size: 23px;
+    }
+
+    .container h1 {
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .descriptionbox {
+        display: flex;
+    }
+
+    .description {
+        padding-left: 3%;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .social-media {
+        padding-left: 3%;
+    }
+
+    .social-media a i {
+        font-size: 40px;
+    }
+
+    .social-media a i:hover {
+        font-size: 50px;
+    }
+
+    #mobile-profile {
+        display: none;
+    }
+
+    #profile-img {
+        margin-top: 25%;
+        width: 55vh;
+    }
+
+    .detailbox {
+        width: 40%;
+        height: 6.5vh;
+        margin-left: 10%;
+        margin-top: -3%;
+        font-size: 12px;
+    }
+
+    .iconbox {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .detailboximage {
+        width: 3rem;
+        height: 3rem;
+        padding-top: 15%;
+    }
+
+    .detailbox ul {
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+
+    .detailbox ul li {
+        margin-right: 1%;
+    }
+
+    /*--------------------------------------About-----------------------------------------------*/
+
+    #about-container {
+        margin-top: 5%;
+        display: flex;
+    }
+
+    .about-img-container {
+        width: 50%;
+    }
+
+    #about-img {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    #mobile-about-img {
+        display: none;
+    }
+
+    .headline {
+        font-size: 40px;
+        line-height: 3rem;
+    }
+
+    .about-content h3 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .about-content {
+        width: 50%;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        margin: 0rem 0 2rem 0rem;
+    }
+
+    #develop {
+        font-size: 16px;
+    }
+
+    .about-text p {
+        font-size: 2rem;
+    }
+
+    .about-content p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+
+    #cv-btn {
+        padding: 1rem 2.8rem;
+        font-size: 1rem;
+        margin-left: 4%;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    /*--------------------------------------Projects--------------------------------------------*/
+
+    .portfolio-container {
+        display: block;
+    }
+
+    .portfolio-box {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 22px;
+    }
+
+    .portfolio-layer p {
+        font-size: 16px;
+    }
+
+    .contact-info .info-item .detail p {
+        font-size: 1.6rem;
+    }
+    .gallery .img {
+        width: 80%;
+        height: 10%;
+        padding-left: 8%;
+      }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /*--------------------------------------Home-----------------------------------------------*/
+
+    #home {
+        padding-top: 8%;
+    }
+
+    .hellopadding {
+        font-size: 30px;
+        line-height: 3;
+    }
+
+    .full-stack {
+        line-height: 3;
+        font-size: 30px;
+    }
+
+    .container h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .descriptionbox {
+        display: flex;
+    }
+
+    .description {
+        padding-left: 3%;
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .social-media {
+        padding-left: 3%;
+    }
+
+    .social-media a i {
+        font-size: 50px;
+    }
+
+    .social-media a i:hover {
+        font-size: 60px;
+    }
+
+    #mobile-profile {
+        display: none;
+    }
+
+    #profile-img {
+        margin-top: 25%;
+        width: 70vh;
+    }
+
+    .detailbox {
+        height: 10vh;
+        margin-left: 20%;
+        margin-top: -3%;
+    }
+
+    .iconbox {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .detailboximage {
+        width: 3.5rem;
+        height: 3.5rem;
+        padding-top: 15%;
+    }
+
+    .detailbox ul {
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+
+    .detailbox ul li {
+        margin-right: 1%;
+    }
+
+    /*--------------------------------------About-----------------------------------------------*/
+
+    #about-container {
+        display: flex;
+    }
+
+    .about-img-container {
+        width: 50%;
+    }
+
+    #mobile-about-img {
+        display: none;
+    }
+
+    #about-img {
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .headline {
+        font-size: 50px;
+        line-height: 5.9rem;
+    }
+
+    .about-content {
+        width: 50%;
+    }
+
+    .about-content h3 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1.3rem;
+        margin: 0rem 0 2rem 0rem;
+    }
+
+    #develop {
+        font-size: 18px;
+    }
+
+    .about-text p {
+        font-size: 2.5rem;
+    }
+
+    .about-content p:nth-of-type(2) {
+        font-size: 1.4rem;
+    }
+
+    #cv-btn {
+        padding: 1rem 2.8rem;
+        font-size: 1.5rem;
+        margin-left: 15%;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    /*--------------------------------------Projects--------------------------------------------*/
+
+    .portfolio-container {
+        display: flex;
+    }
+
+    .portfolio-box {
+        width: auto;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 30px;
+    }
+
+    .portfolio-layer p {
+        font-size: 18px;
+    }
+
+    .contact-info .info-item .detail p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    /*--------------------------------------Home-----------------------------------------------*/
+
+    #home {
+        padding-top: 6%;
+    }
+
+    .hellopadding {
+        font-size: 35px;
+        line-height: 3;
+    }
+
+    .full-stack {
+        line-height: 3;
+        font-size: 35px;
+    }
+
+    .container h1 {
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    .descriptionbox {
+        display: flex;
+    }
+
+    .description {
+        padding-left: 3%;
+        width: 60%;
+        font-size: 16px;
+    }
+
+    .social-media a i {
+        font-size: 60px;
+    }
+
+    .social-media {
+        padding-left: 3%;
+    }
+
+    .social-media a i:hover {
+        font-size: 70px;
+    }
+
+    #mobile-profile {
+        display: none;
+    }
+
+    #profile-img {
+        margin-top: 12%;
+        width: 75vh;
+    }
+
+    .detailbox {
+        height: 12vh;
+        margin-left: 15%;
+        margin-top: -2%;
+    }
+
+    .iconbox {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .detailboximage {
+        width: 3.5rem;
+        height: 3.5rem;
+        padding-top: 15%;
+    }
+
+    .detailbox ul {
+        padding-top: 1%;
+        padding-left: 4.5%;
+    }
+
+    .detailbox ul li {
+        margin-right: 7%;
+    }
+
+    /*--------------------------------------About-----------------------------------------------*/
+
+    #about-container {
+        display: flex;
+    }
+
+    .about-img-container {
+        width: 50%;
+    }
+
+    #mobile-about-img {
+        display: none;
+    }
+
+    #about-img {
+        width: 60%;
+    }
+
+    .headline {
+        font-size: 60px;
+        line-height: 5.9rem;
+    }
+
+    .about-content {
+        width: 50%;
+    }
+
+    .about-content h3 {
+        font-size: 2.3rem;
+    }
+
+    .about-content p {
+        font-size: 1.3rem;
+        margin: 2rem 0 3rem 0rem;
+    }
+
+    .about-text p {
+        font-size: 3rem;
+    }
+
+    .about-content p:nth-of-type(2) {
+        font-size: 1.6rem;
+    }
+
+    #cv-btn {
+        padding: 1rem 2.8rem;
+        font-size: 1.6rem;
+        margin-left: 25%;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+
+    /*--------------------------------------Projects--------------------------------------------*/
+
+    .portfolio-container {
+        display: flex;
+    }
+
+    .portfolio-box {
+        width: auto;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 35px;
+    }
+
+    .portfolio-layer p {
+        font-size: 20px;
+    }
+
+    .contact-info .info-item .detail p {
+        font-size: 1.6rem;
+    }
+}
